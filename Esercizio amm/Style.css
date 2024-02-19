@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(background.jpg);
+    color: white;
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Pagina {
+    width: 80%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 5%;
+}
+
+/* Css header  */
+header {
+    text-align: center;
+}
+
+header > img {
+    width: 30%;
+}
+
+header > h1 {
+    color: greenyellow;
+}
+
+/* Css nav */
+nav {
+    background-color: greenyellow;
+    text-align: center;
+    padding: 1%;
+}
+
+/* Css main */
+.monopattino > h2 {
+    display: inline-block;
+    font-size: 200%;
+    margin-bottom: 0%;
+}
+
+.monopattino > p {
+    margin-top: 0%;
+    border-top: 2%;
+}
+
+.statocarica1 {
+    height: 25px;
+    border-radius: 10px;
+    width: 50%;
+    background-color: lightgoldenrodyellow;
+}
+
+.statocarica2 {
+    height: 25px;
+    border-radius: 10px;
+    width: 20%;
+    background-color: rgb(250, 0, 0);
+}
+
+.statocarica3 {
+    height: 25px;
+    border-radius: 10px; 
+    width: 70%;
+    background-color: rgb(112, 112, 13);
+}
